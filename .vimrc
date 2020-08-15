@@ -1,11 +1,13 @@
-" use clipboard
-set clipboard=unnamedplus 
-
-" auto indent based on file type
-filetype indent plugin on 
+execute pathogen#infect()
 
 " syntax highlighting
 syntax on
+
+" auto indent based on file type
+filetype plugin indent on 
+
+" use clipboard
+set clipboard=unnamedplus 
 
 " Use case insensitive search, except when using capital letters
 set ignorecase
@@ -28,5 +30,14 @@ set linebreak
 set spell
 set spelllang=en,nl
 
-" Auto indent XML files
+" Indent XML files with gg=G
 au FileType xml setlocal equalprg=xmllint\ --format\ --recover\ -\ 2>/dev/null
+
+" Haskell plugin options
+let g:haskell_enable_quantification = 1   " to enable highlighting of `forall`
+let g:haskell_enable_recursivedo = 1      " to enable highlighting of `mdo` and `rec`
+let g:haskell_enable_arrowsyntax = 1      " to enable highlighting of `proc`
+let g:haskell_enable_pattern_synonyms = 1 " to enable highlighting of `pattern`
+let g:haskell_enable_typeroles = 1        " to enable highlighting of type roles
+let g:haskell_enable_static_pointers = 1  " to enable highlighting of `static`
+let g:haskell_backpack = 1                " to enable highlighting of backpack keywords
