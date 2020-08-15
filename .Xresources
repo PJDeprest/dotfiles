@@ -1,0 +1,53 @@
+!! basics
+
+XTerm.termName: xterm-256color
+XTerm.vt100.saveLines: 4096
+XTerm.vt100.selectToClipboard: on
+
+!! theme
+
+XTerm.vt100.faceName: mono:pixelsize=16:antialias=true
+
+! Light theme
+
+!*background: rgb:ad/aa/ad
+!*foreground: rgb:00/00/00
+!*color0:     rgb:00/00/00
+!*color1:     rgb:64/0f/19
+!*color2:     rgb:63/79/6b
+!*color3:     rgb:ad/71/42
+!*color4:     rgb:4f/4f/89
+!*color5:     rgb:b2/5c/7c
+!*color6:     rgb:52/75/6b
+!*color7:     rgb:ad/aa/ad
+!*color8:     rgb:52/55/52
+!*color9:     rgb:a5/61/63
+!*color10:    rgb:ce/c2/63
+!*color11:    rgb:73/ae/70
+!*color12:    rgb:36/70/9f
+!*color13:    rgb:aa/82/9c
+!*color14:    rgb:51/89/89
+!*color15:    rgb:ff/ff/ef
+
+
+! Dark theme
+
+xterm*background: rgb:1a/1a/1a
+xterm*foreground: rgb:d6/d6/d6
+xterm*celer0:     rgb:00/00/00
+xterm*color1:     rgb:9e/18/28
+xterm*color2:     rgb:00/88/00
+xterm*color3:     rgb:96/8a/38
+xterm*color4:     rgb:41/41/71
+xterm*color5:     rgb:96/3c/59
+xterm*color6:     rgb:41/81/79
+xterm*color7:     rgb:be/be/be
+xterm*color8:     rgb:66/66/66
+xterm*color9:     rgb:cf/61/71
+xterm*color10:    rgb:7c/bc/8c
+xterm*color11:    rgb:ff/f7/96
+xterm*color12:    rgb:41/86/be
+xterm*color13:    rgb:cf/9e/be
+xterm*color14:    rgb:71/be/be
+xterm*color15:    rgb:ff/ff/ff
+xterm*cursorColor: #d6d6d6
